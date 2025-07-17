@@ -5,7 +5,7 @@ class TicTacToe extends Matrix {
 
 
   constructor() {
-    super(0, 0) // נתחיל עם מטריצה ריקה
+    super(0, 0) 
   }
 
 
@@ -17,7 +17,7 @@ class TicTacToe extends Matrix {
      
 
   for (let i = 0; i < this.row; i++) {
-    this.metrix[i] = [] // יוצרים שורה חדשה
+    this.metrix[i] = [] 
     for (let j = 0; j < this.column; j++) {
       this.metrix[i][j] = '.'
     }

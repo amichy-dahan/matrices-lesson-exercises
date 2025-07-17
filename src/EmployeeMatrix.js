@@ -5,7 +5,7 @@ class EmployeeMatrix extends Matrix {
 
 
   constructor() {
-    super(0, 0) // נתחיל עם מטריצה ריקה
+    super(0, 0) 
   }
 
 
@@ -48,7 +48,7 @@ findRichest(){
     for (let i = 0; i < this.row; i++) {
        if(this.metrix[i][3] > max){
         max = this.metrix[i][3];
-       name = this.metrix[i][1];
+        name = this.metrix[i][1];
        }
        
     }
